@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-esbuild",
   "version": "1.0.0",
-  "description": "React JS project created by esbuild",
+  "description": "Alpine.js project created by esbuild",
   "main": "src/index.js",
   "scripts": {
     "start": "npm install && npx tailwindcss -o ./src/tailwind.css",
