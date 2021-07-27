@@ -1,13 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <meta name="description" content="Description text">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Alpine App Esbuild</title>
-    <script defer type="module" src="./index.js" ></script>
+    <meta name="author" content="Ernesto Alejandro Nappi">
+    <meta name="description" content="Your entertaining and descriptive copy here, if your meta description is good, use it.">
+    <meta property=”og:title” content="Alpine App Esbuild" />
+    <meta property="og:site_name" content="Alpine App Esbuild" />
+    <meta property=”og:description” content="Your entertaining and descriptive copy here, if your meta description is good, use it." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.yourdomain.com" />  
+    <meta property=”og:image” content="https://www.yourdomain.com/image-description.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="./index.css" />
+    <script defer type="module" src="./index.js" ></script>
+    <title>Alpine App Esbuild</title>
   </head>
   <body>
     <h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
